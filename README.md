@@ -1,5 +1,5 @@
 # tesco_halozat
-Mert a kissebbég is számít!  
+Mert a kissebbség is számít!  
   
 Ki mit csinál?  
 PPT ---> Valentin  
