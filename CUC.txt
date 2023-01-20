@@ -1,0 +1,35 @@
+Porta:
+
+1 pc
+tablet
+wifi router
+laptop
+
+Iroda:
+router
+2 switch
+12 pc (6-6)
+2 szerver (1-1)
+
+Igazgatóság:
+2 pc 
+wifi router
+2 laptop
+TFTP szerver
+1 tablet
+
+Management:
+3 pc
+1 switch
+1 router 
+2 laptop
+
+Raktár:
+2 pc
+1 router
+1 switch
+
+
+
+199.40.0.0 255.255.255.224
+10.0.0.0 255.248.0.0
