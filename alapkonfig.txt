@@ -1,0 +1,190 @@
+Porta:
+
+-
+
+---------------------------------------------------
+
+Iroda:
+
+Router:
+
+ena 
+clock set 12:00:00 18 Jan 2023
+conf t
+host R_Iroda
+no ip domain-lookup
+ena sec class123
+ser pass
+banner motd "Private Area!"
+login block-for 60 att 3 within 30
+security pass min-length 8
+lin con 0
+pass cisco123
+login
+logg syn
+exec 5
+line vty 0 15
+pass cisco123
+login
+logg syn
+exec 5
+exit
+
+SW1:
+
+ena 
+clock set 12:00:00 18 Jan 2023
+conf t
+host SW1_Iroda
+no ip domain-lookup
+ena sec class123
+ser pass
+banner motd "Private Area!"
+lin con 0
+pass cisco123
+login
+logg syn
+exec 5
+line vty 0 15
+pass cisco123
+login
+logg syn
+exec 5
+exit
+
+SW2:
+
+
+ena 
+clock set 12:00:00 18 Jan 2023
+conf t
+host SW2_Iroda
+no ip domain-lookup
+ena sec class123
+ser pass
+banner motd "Private Area!"
+lin con 0
+pass cisco123
+login
+logg syn
+exec 5
+line vty 0 15
+pass cisco123
+login
+logg syn
+exec 5
+exit
+
+-----------------------------------------------
+
+Igazgatóság:
+
+-
+
+----------------------------------------------
+
+Management:
+
+Router:
+
+
+ena 
+clock set 12:00:00 18 Jan 2023
+conf t
+host R_Management
+no ip domain-lookup
+ena sec class123
+ser pass
+banner motd "Private Area!"
+login block-for 60 att 3 within 30
+security pass min-length 8
+lin con 0
+pass cisco123
+login
+logg syn
+exec 5
+line vty 0 15
+pass cisco123
+login
+logg syn
+exec 5
+exit
+
+SW:
+
+
+ena 
+clock set 12:00:00 18 Jan 2023
+conf t
+host SW_Management
+no ip domain-lookup
+ena sec class123
+ser pass
+banner motd "Private Area!"
+lin con 0
+pass cisco123
+login
+logg syn
+exec 5
+line vty 0 15
+pass cisco123
+login
+logg syn
+exec 5
+exit
+
+--------------------------------------------------
+
+Raktár:
+
+Router:
+
+ena 
+clock set 12:00:00 18 Jan 2023
+conf t
+host R_Raktar
+no ip domain-lookup
+ena sec class123
+ser pass
+banner motd "Private Area!"
+login block-for 60 att 3 within 30
+security pass min-length 8
+lin con 0
+pass cisco123
+login
+logg syn
+exec 5
+line vty 0 15
+pass cisco123
+login
+logg syn
+exec 5
+exit
+
+
+SW:
+
+ena 
+clock set 12:00:00 18 Jan 2023
+conf t
+host SW_Raktar
+no ip domain-lookup
+ena sec class123
+ser pass
+banner motd "Private Area!"
+lin con 0
+pass cisco123
+login
+logg syn
+exec 5
+line vty 0 15
+pass cisco123
+login
+logg syn
+exec 5
+exit
+
+
+
+
+
