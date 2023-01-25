@@ -1,0 +1,10 @@
+Porta_Router: 10.0.0.1
+Iroda_router bal: ip route 199.40.0.0 255.255.255.224 10.0.0.1
+Iroda_router jobb: ip route 199.40.0.96 255.255.255.224 10.0.16.2
+Iroda_router közép: ip route 199.40.0.128 255.255.255.224 10.0.32.2
+
+Management_router fent (bal): ip route 199.40.0.32 255.255.255.224 10.0.32.1
+Management_router fent (jobb): ip route 199.40.0.64 255.255.255.224 10.0.32.1
+Management_router bal: ip route 199.40.0.160 255.255.255.224 10.0.48.2
+
+Raktár_router jobb: ip route 199.40.0.128 255.255.255.224 10.0.48.1
